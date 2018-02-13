@@ -1,0 +1,3 @@
+Название сайта	Блоки новостей	Заголовок	Описание	Содержимое	Категория	URL	Guid	Дата публикации
+https://lenta.ru/rss	item	title	description	"div [itemprop=""articleBody""]"	category	link	guid	pubDate
+https://www.e1.ru	article.e1-article	title,//g	p.e1-article__text	div.e1-news-item-content		a.e1-article__link,attr=href	a.e1-article__link,attr=href	

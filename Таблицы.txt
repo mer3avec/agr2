@@ -1,0 +1,28 @@
+CREATE TABLE news
+(
+  id serial NOT NULL,
+  title character varying,
+  description character varying,   
+  content character varying,
+  category character varying, 
+  link character varying,
+  guid character varying,
+  pub_date timestamp without time zone,
+  site_id integer,
+  CONSTRAINT news_pkey PRIMARY KEY (id)
+);
+
+CREATE TABLE sites
+(
+  id serial NOT NULL,
+  name character varying, 
+  new_block character varying,
+  new_title character varying,
+  new_description character varying,   
+  new_content character varying,
+  new_category character varying, 
+  new_link character varying,
+  new_guid character varying,
+  new_pub_date character varying, 
+  CONSTRAINT sites_pkey PRIMARY KEY (id)
+);
